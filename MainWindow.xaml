@@ -6,7 +6,15 @@
         xmlns:local="clr-namespace:BuisnessTransactionsManagement"
         mc:Ignorable="d"
         Title="Buisness Transactions Management" Height="450" Width="800">
-    <Grid>
-
-    </Grid>
+    <DockPanel>
+    <Menu DockPanel.Dock="Top">
+            <MenuItem Header="Home"/>
+            <MenuItem Header="Search"/>
+            <MenuItem Header="New/Modify">
+            <MenuItem Header="New"/>
+            <MenuItem Header="Modify"/>
+        </MenuItem>
+    </Menu>
+    </DockPanel>
+   
 </Window>
