@@ -8,13 +8,14 @@
         Title="Buisness Transactions Management" Height="450" Width="800">
     <DockPanel>
     <Menu DockPanel.Dock="Top">
-            <MenuItem Header="Home"/>
-            <MenuItem Header="Search"/>
+            <MenuItem Header="Home" Click="miHomeClick"/>
+            <MenuItem Header="Search" Click="miSearchClick"/>
             <MenuItem Header="New/Modify">
-            <MenuItem Header="New"/>
-            <MenuItem Header="Modify"/>
+            <MenuItem Header="New" Click="miNewClick"/>
+            <MenuItem Header="Modify" Click="miModifyPageClick" />
         </MenuItem>
     </Menu>
+    <Frame x:Name="Main" NavigationUIVisibility="Hidden"/>
+
     </DockPanel>
-   
 </Window>
