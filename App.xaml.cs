@@ -2,7 +2,7 @@
 using System.Data;
 using System.Windows;
 
-namespace BuisnessTransactionsManagement
+namespace BtmApp
 {
     /// <summary>
     /// Interaction logic for App.xaml

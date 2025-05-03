@@ -13,7 +13,7 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 
-namespace BuisnessTransactionsManagement
+namespace BtmApp
 {
     /// <summary>
     /// Interaction logic for NewItemPage.xaml

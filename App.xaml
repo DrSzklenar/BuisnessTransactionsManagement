@@ -1,7 +1,7 @@
-﻿<Application x:Class="BuisnessTransactionsManagement.App"
+﻿<Application x:Class="BtmApp.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:BuisnessTransactionsManagement"
+             xmlns:local="clr-namespace:BtmApp"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
          
